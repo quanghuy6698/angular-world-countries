@@ -9,8 +9,8 @@ const express = require('express');
 const app = express();
 
 app.use(requireHTTPS);
-app.use(express.static('./dist/my-cv'));
+app.use(express.static('./dist/the-world'));
 app.get('/*', function(req, res) {
-  res.sendFile('index.html', {root: 'dist/my-cv/'});
+  res.sendFile('index.html', {root: 'dist/the-world/'});
 });
 app.listen(process.env.PORT || 8080);
