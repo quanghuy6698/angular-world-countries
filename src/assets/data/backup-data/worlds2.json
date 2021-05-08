@@ -1,0 +1,17 @@
+{
+  "worlds": [
+    { "id": 1, "code": "AF", "name": "Afghanistan" },
+
+    { "id": 2, "code": "AX", "name": "Aland Islands" },
+
+    { "id": 3, "code": "AL", "name": "Albania" },
+
+    { "id": 4, "code": "DZ", "name": "Algeria" },
+
+    { "id": 5, "code": "AS", "name": "American Samoa" },
+
+    { "id": 6, "code": "AD", "name": "Andorra" },
+
+    { "id": 7, "code": "AO", "name": "Angola" }
+  ]
+}

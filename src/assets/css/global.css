@@ -1,0 +1,28 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url("../images/backgrounds/world3.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-color: #000000; */
+}
+
+.font-size-1x5 {
+  font-size: 1.5rem;
+}
+
+.font-size-2x {
+  font-size: 2rem;
+}
+
+.font-size-3 {
+  font-size: 3rem;
+}
+
+.center-element {
+  margin: 0 auto;
+}
+
+.center-text {
+  text-align: center;
+}

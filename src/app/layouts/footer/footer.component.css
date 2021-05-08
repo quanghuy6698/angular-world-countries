@@ -1,0 +1,27 @@
+.footer {
+    width: 100%;
+    background-color: var(--footer-bg);
+    /* margin-top: 1rem; */
+    /* background-image: linear-gradient(to top, rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url('/content/img/vector-material.jpg'); */
+    background-size: cover;
+    padding-bottom: 3rem;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.contact-info ul li {
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.contact-info ul li a i{
+    color: aquamarine;
+    font-size: 2rem;
+}

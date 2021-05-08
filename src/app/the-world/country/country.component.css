@@ -1,0 +1,21 @@
+/* ct stands for CountryTerritory */
+.country-box {
+  padding: 5px;
+  background-color: transparent;
+}
+
+.country {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.border-bot {
+  border-bottom: 1px solid black;
+}
+
+.country-code {
+  font-size: 16px;
+}

@@ -1,0 +1,83 @@
+{
+  "regions": [
+    {
+      "name": "Asia",
+      "code": "AS",
+      "subregions": [
+        { "name": "Northern Asia", "code": "NAS" },
+        { "name": "Central Asia", "code": "CAS" },
+        {
+          "name": "Southern Asia",
+          "code": "SAS"
+        },
+        { "name": "Western Asia", "code": "WAS" },
+        { "name": "South-Eastern Asia", "code": "SEA" },
+        { "name": "Eastern Asia", "code": "EAS" }
+      ]
+    },
+    {
+      "name": "Europe",
+      "code": "EU",
+      "subregions": [
+        {
+          "name": "Northern Europe",
+          "code": "NEU"
+        },
+        { "name": "Southern Europe", "code": "SEU" },
+        { "name": "Western Europe", "code": "WEU" },
+        { "name": "Eastern Europe", "code": "EEU" }
+      ]
+    },
+    {
+      "name": "Africa",
+      "code": "AF",
+      "subregions": [
+        {
+          "name": "Northern Africa",
+          "code": "NAF"
+        },
+        { "name": "Middle Africa", "code": "MAF" },
+        { "name": "Western Africa", "code": "WAF" },
+        { "name": "Southern Africa", "code": "SAF" },
+        { "name": "Eastern Africa", "code": "EAF" }
+      ]
+    },
+    {
+      "name": "Oceania",
+      "code": "OC",
+      "subregions": [
+        {
+          "name": "Polynesia",
+          "code": "PLS"
+        },
+        { "name": "Australia and New Zealand", "code": "ANZ" },
+        { "name": "Melanesia", "code": "MLS" },
+        { "name": "Micronesia", "code": "MCS" }
+      ]
+    },
+    {
+      "name": "Americas",
+      "code": "AM",
+      "subregions": [
+        {
+          "name": "Northern America",
+          "code": "NA"
+        },
+        { "name": "Central America", "code": "CA" },
+        { "name": "Caribbean", "code": "CRB" },
+        { "name": "South America", "code": "SA" }
+      ]
+    },
+    {
+      "name": "Polar",
+      "code": "PL",
+      "subregions": [
+        {
+          "name": "Artic",
+          "code": "AT"
+        },
+        { "name": "Antarctica", "code": "AN" }
+      ]
+    }
+  ]
+}
