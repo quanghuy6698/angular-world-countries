@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import * as data from "src/assets/data/json/worlds.json";
 
 @Component({
   selector: "container",
@@ -6,6 +7,8 @@ import { Component } from "@angular/core";
   styleUrls: ["./container.component.css"],
 })
 export class ContainerComponent {
+  countries = data;
+
   // Scroll to top
   toTop() {
     // For Safari
@@ -13,6 +16,4 @@ export class ContainerComponent {
     // For Chrome, Firefox, IE and Opera
     document.documentElement.scrollTop = 0;
   }
-
-  loadData() {}
 }

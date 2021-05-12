@@ -1,4 +1,4 @@
-export default interface ITranslation {
+export interface ITranslation {
   de?: string | null;
   es?: string | null;
   fr?: string | null;

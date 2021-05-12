@@ -1,4 +1,4 @@
-export default interface ILanguage {
+export interface ILanguage {
   iso639_1?: string | null;
   iso639_2?: string | null;
   name?: string | null;

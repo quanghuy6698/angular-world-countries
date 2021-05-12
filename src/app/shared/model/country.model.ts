@@ -1,7 +1,7 @@
 import { ICurrency } from "./currency.model";
 import { ILanguage } from "./language.model";
 import { IRegionalBloc } from "./regional-bloc.model";
-import { ITranslation } from "./Translation.model";
+import { ITranslation } from "./translation.model";
 
 export default interface ICountry {
   name?: string;
