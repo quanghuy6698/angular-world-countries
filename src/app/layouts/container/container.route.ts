@@ -6,12 +6,4 @@ export const ContainerRouter: Routes = [
     path: "",
     component: ContainerComponent,
   },
-  // {
-  //   path: '',
-  //   component: GreetingComponent,
-  // },
-  // {
-  //   path: 'greeting',
-  //   component: GreetingComponent,
-  // },
 ];

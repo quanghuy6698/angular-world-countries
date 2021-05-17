@@ -19,3 +19,8 @@
   display: flex;
   flex-direction: column;
 }
+
+.region-filter {
+  grid-column-start: 1;
+  grid-column-end: 6;
+}

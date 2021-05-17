@@ -1,27 +1,17 @@
 .footer {
-    width: 100%;
-    background-color: var(--footer-bg);
-    /* margin-top: 1rem; */
-    /* background-image: linear-gradient(to top, rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url('/content/img/vector-material.jpg'); */
-    background-size: cover;
-    padding-bottom: 3rem;
+  width: 100%;
+  background-color: rgba(0, 255, 255, 0.5);
+  color: white;
+  display: block;
+  margin: 0;
+  padding: 10px 0;
 }
 
-.contact-info {
-    text-align: center;
+.vendor-list {
+  list-style-type: none;
+  margin: 0;
 }
 
-.contact-info ul {
-    list-style-type: none;
-    margin: 0;
-}
-
-.contact-info ul li {
-    display: inline-block;
-    padding: 0.5rem;
-}
-
-.contact-info ul li a i{
-    color: aquamarine;
-    font-size: 2rem;
+.vendor-list li {
+  display: inline-block;
 }

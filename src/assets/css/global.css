@@ -26,3 +26,7 @@ body {
 .center-text {
   text-align: center;
 }
+
+.region-filter-txt {
+  color: tomato;
+}
