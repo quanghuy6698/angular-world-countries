@@ -1,22 +1,15 @@
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
-
-import { AppComponent } from "./app.component";
-import { ContainerModule } from "./layouts/container/container.module";
+import { AppCmp } from "./app.cmp";
 import { RouterModule } from "@angular/router";
 import { AppRouting } from "./app.route";
-import { ErrorComponent } from "./layouts/error/error.component";
 import { CommonModule } from "@angular/common";
+import { ErrorPage } from "./pages/error/error.page";
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    CommonModule,
-    RouterModule.forRoot(AppRouting),
-    ContainerModule,
-  ],
-  declarations: [AppComponent, ErrorComponent],
+  imports: [BrowserModule, CommonModule, RouterModule.forRoot(AppRouting)],
+  declarations: [AppCmp, ErrorPage],
   providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [AppCmp],
 })
 export class AppModule {}

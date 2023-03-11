@@ -1,17 +1,14 @@
 import { Routes } from "@angular/router";
-import { ErrorComponent } from "./layouts/error/error.component";
+import { ErrorPage } from "./pages/error/error.page";
 
 export const AppRouting: Routes = [
   {
     path: "",
-    loadChildren: () =>
-      import("./layouts/container/container.module").then(
-        (m) => m.ContainerModule
-      ),
+    loadChildren: () => import("./pages/home/home.module").then((mdl) => mdl.HomeModule),
   },
   {
     path: "error",
-    component: ErrorComponent,
+    component: ErrorPage,
   },
   {
     path: "**",
